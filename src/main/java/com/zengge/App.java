@@ -8,6 +8,7 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
+        //测试推送
         try (Playwright playwright = Playwright.create()) {
             // 使用 webkit 浏览器引擎启动浏览器
             Browser browser = playwright.webkit().launch(new BrowserType.LaunchOptions()
